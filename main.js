@@ -9,7 +9,7 @@ function answer(){
 
 
 
-    var result = parseInt(input1.value) + parseInt(input2.value);
+    var result = (input1.value) * (input1.value) * parseInt(input2.value);
 
     output.textContent = result
 }
